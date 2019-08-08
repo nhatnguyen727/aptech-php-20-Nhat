@@ -1,0 +1,42 @@
+p {
+    color: rgb(24, 51, 59);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h1 {
+    color: #00aeff;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+div {
+    display: flex;
+
+}
+.header {
+    background-color: lightgreen;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body1 {
+
+    width: 30%;
+    color: #00aeff;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.body2 {
+    
+    width: 70%;
+    float: right;
+    color: rgb(24, 51, 59);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.footer {
+    background-color: lightgreen;
+    width: auto;
+    height: auto;
+}

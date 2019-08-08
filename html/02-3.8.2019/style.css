@@ -1,0 +1,28 @@
+header{
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.body1 {
+    float: left;
+    width: 20%;
+    height: 350px;
+    padding: 20px;
+}
+.body2 {
+   
+    width: 80%;
+    height: 350px;
+    
+}
+
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }

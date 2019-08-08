@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(152, 218, 190);
+}
+.contairner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2 {
+    color: #007bff;
+    text-align: center;
+}
+.form-group {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 16px; 
+}
+.form-control {
+    width: 200px;
+    height: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+}
+.submit {
+    background-color: #f5b3f5;
+    padding-bottom: 5px;
+    padding-left: 34.24px;
+    padding-right: 34.24px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
