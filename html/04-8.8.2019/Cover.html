@@ -13,22 +13,33 @@
         h1 {
             margin: auto;
         }
-        
-       
+        .Header__Row__First-Six-Col__Un-Order-List__List-item--border-width {
+            border-block-width: 4px !important;
+        }
+        .Header__Row__First-Six-Col__Un-Order-List__List-item--un-active {
+            border-bottom-color: #343a40 !important;
+        }
+       .Header__Row__First-Six-Col__Un-Order-List__List-item--hover:hover {
+           border-bottom-width: 4px !important;
+           border-bottom-color: gray !important;
+           border-bottom-style: solid;
+       }
         </style>
     </head>
     <body>
 
-        <div class="container w-75 d-flex  flex-column p-3" style="height: 10%; ">
-            <div class="row">
-                <div class="col-6 d-flex justify-content-start">
+        <div class="container w-75 d-flex  flex-column p-3 Header" style="height: 10%; ">
+            <div class="row Header__Row">
+                <div class="col-6 d-flex justify-content-start Header__Row__First-Six-Col">
                     <h2>Cover</h2>
                 </div>
-                <div class="col-6 ">
-                   <ul class="d-flex justify-content-end p-1">
-                       <a href="#" class="text-light mx-2">Home</a>
-                       <a href="#" class="text-light mx-2">Features</a>
-                       <a href="#" class="text-light mx-2">Contact</a>
+                <div class="col-6 Header__Row__First-Six-Col">
+                   <ul class="d-flex justify-content-end p-3  Header__Row__First-Six-Col__Un-Order-List__List-item " style="list-style: none;">
+                       <li class="text-light mx-2  Header__Row__First-Six-Col__Un-Order-List__List-item--border-width Header__Row__First-Six-Col__Un-Order-List__List-item--hover 
+                       ">Home</li>
+                       <li class="text-light mx-2 Header__Row__First-Six-Col__Un-Order-List__List-item--un-active Header__Row__First-Six-Col__Un-Order-List__List-item--hover ">Features</li>
+                       <li class="text-light mx-2 Header__Row__First-Six-Col__Un-Order-List__List-item--un-activeHeader__Row__First-Six-Col__Un-Order-List__List-item--hover ">Contact</li>
+                       
 
                    </ul>
                 </div>
@@ -43,7 +54,7 @@
                 </div>
             </div>
         <div class="container w-75 d-flex justify-content-center p-3 " style="height: 10%; ">
-        <p>Cover template for Bootstrap, by @mdo.</p>
+        <p><span>Cover template for</span> Bootstrap, by @mdo.</p>
     
     </div>
     
