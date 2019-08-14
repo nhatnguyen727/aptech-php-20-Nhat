@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstap.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Container__First, .Container__Second, .Container__Third {
+  height: 100px;
+  width: 33.33%;
+}
+
+.Container__First {
+  background-color: red;
+}
+
+@media screen and (max-width: 576px) {
+  .Container__First {
+    background-color: green;
+  }
+}
+
+.Container__Second {
+  background-color: blue;
+}
+
+@media screen and (max-width: 576px) {
+  .Container__Second {
+    background-color: red;
+  }
+}
+
+.Container__Third {
+  background-color: green;
+}
+
+@media screen and (max-width: 576px) {
+  .Container__Third {
+    background-color: blue;
+  }
+}
+        </style>
+    </head>
+    <body>
+        <div class="Container " >
+            <div class="Container__First"></div>
+            <div class="Container__Second"></div>
+            <div class="Container__Third"></div>
+        </div>        
+    </body>
+</html>
