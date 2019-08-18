@@ -3,7 +3,7 @@
     <head>
         <link rel="stylesheet" href="bootstap.css">
         <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
-        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             .top {
                     position: fixed;
@@ -14,8 +14,8 @@
     </head>
     <body>
         <nav class="navbar navbar-dark bg-dark ">
-            <a class="navbar-brand" href="#"><i class="fas fa-camera-retro"></i> Album</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand offset-2" href="#"><i class="fas fa-camera-retro"></i> Album</a>
+            <button class="navbar-toggler w-50" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>           
         </nav>
@@ -31,37 +31,50 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container-fluid bg-light">
             <div class="row ">
-                <div class="col-4 ">
-                    <div class="card border-2" style="width: 18rem;">
-                        <img class="card-img-top" src="" alt="Card image cap">
+                <div class="card-deck d-flex justify-content-center mx-auto p-5 w-75">
+                    <div class="card shadow p-3 mb-5 bg-white rounded">
+                        <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="#" class="btn btn-outline-secondary btn-sm">View</a>
-                            <a href="#" class="btn btn-outline-secondary btn-sm">Edit</a>
-                            <small class="text-muted d-flex justify-content-end">9 mins </small>
+                            
+                            <div class="input-group mb-3 d-flex justify-content-between">
+                                <div class="input-group-prepend" id="button-addon3">
+                                    <button class="btn btn-outline-secondary btn-sm"type="button">View</button>
+                                    <button class="btn btn-outline-secondary btn-sm rounded-right "type="button">Edit</button>
+                             </div>
+                                <small class="text-muted justify-content-end">9 mins</small>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-4 ">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="" alt="Card image cap">
+                    <div class="card shadow p-3 mb-5 bg-white rounded">
+                        <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="#" class="btn btn-outline-secondary btn-sm">View</a>
-                            <a href="#" class="btn btn-outline-secondary btn-sm">Edit</a>
-                            <small class="text-muted d-flex justify-content-end">9 mins </small>
+                            <div class="input-group mb-3 d-flex justify-content-between   ">
+                                <div class="input-group-prepend" id="button-addon3">
+                                    <button class="btn btn-outline-secondary btn-sm"type="button">View</button>
+                                    <button class="btn btn-outline-secondary btn-sm rounded-right "type="button">Edit</button>
+                                    </div>
+                                <small class="text-muted " >9 mins</small>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="" alt="Card image cap">
+                    <div class="card shadow p-3 mb-5 bg-white rounded">
+                        <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="#" class="btn btn-outline-secondary btn-sm">View</a>
-                            <a href="#" class="btn btn-outline-secondary btn-sm">Edit</a>
-                            <small class="text-muted d-flex justify-content-end">9 mins </small>
+                            <div class="input-group mb-3 d-flex justify-content-between">
+                                    <div class="input-group-prepend" id="button-addon3">
+                                        <button class="btn btn-outline-secondary btn-sm"type="button">View</button>
+                                        <button class="btn btn-outline-secondary btn-sm rounded-right "type="button">Edit</button>
+                                        
+    
+                                    </div>
+                                    <small class="text-muted justify-content-end">9 mins</small>
+                                </div>
                         </div>
                     </div>
                 </div>
