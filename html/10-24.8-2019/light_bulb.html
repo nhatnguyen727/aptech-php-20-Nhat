@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <img id="myImg" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="..." style="height: 150px;">
+
+    <button onclick="changeImage()" >Click</button>
+
+
+
+    <script>
+    function changeImage() {
+    var image = document.getElementById('myImg');
+    if (image.src.match("bulbon")) {
+        image.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+    } else {
+        image.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+    }
+}
+    </script>
+</body>
+</html>

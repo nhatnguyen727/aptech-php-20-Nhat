@@ -15,11 +15,6 @@ new Chart(document.getElementById("line-chart"), {
           lineTension: 0,
         }
       ]
-    },
-    options: {
-        
-      title: {
-        display: true,
-      }
     }
+   
   });

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+  </head>
+  <body>
+      <h1 id="demo">Hello</h1>
+      <button onclick="DoiMau()">Doi Mau</button>
+
+      <br><br><br>
+      <img id="myImg" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="..." style="height: 150px;">
+
+      <button onclick="LightOn()" >Light On</button>
+      <button onclick="LightOff()" >Light Off</button>
+
+      <script>
+          // document.getElementById('demo').innerHTML = "Hello";
+          // document.getElementById('demo').style.color ='pink';
+          
+          // var a = 5;
+          // var b =7;
+          // var c= '$';
+
+          //plus
+          // console.log(a+b);
+          //concat
+          // console.log(a+c);
+
+          function DoiMau(){
+            document.getElementById('demo').style.color ='pink';
+          }
+
+          function LightOn(){
+            document.getElementById('myImg').src ='https://www.w3schools.com/js/pic_bulbon.gif'
+            
+          }
+          function LightOff(){
+            document.getElementById('myImg').src ='https://www.w3schools.com/js/pic_bulboff.gif'
+            
+          }
+
+      </script>
+  </body>
+</html>
