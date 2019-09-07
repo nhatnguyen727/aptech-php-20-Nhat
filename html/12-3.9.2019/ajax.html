@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <button onclick="LoadDoc()">Load</button>
+    <script>
+        function LoadDoc(){
+            var n = new XMLHttpRequest();
+            n.onreadystatechange = function() {
+                if(this.readyState == 4 && this.status == 200 ){
+                    alert(n.responseText);
+                }else{
+                    console.log('chua load xong du lieu' + this.readyState);
+                }
+            }
+            n.open ("GET","data.txt");
+            n.send();
+        }
+    
+    </script>
+</body>
+</html>
