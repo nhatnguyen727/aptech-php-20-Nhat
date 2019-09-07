@@ -36,12 +36,12 @@ function taiDuLieu(){
                 cardLink.appendChild(cardText);
                 cardBody.appendChild(cardLink);card.appendChild(cardBody);
 
-                if(data[i].categories.id != null){
-                    var btn = document.createElement('button');
-                    btn.className = 'btn btn-primary';
-                    btn.setAttribute('name',(i+1));
-                    btn.appendChild(card);
-                }
+                // if(data[i].categories.id != null){
+                //     var btn = document.createElement('button');
+                //     btn.className = 'btn btn-primary';
+                //     btn.setAttribute('name',(i+1));
+                //     btn.appendChild(card);
+                // }
 
 
         
